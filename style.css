@@ -1,0 +1,240 @@
+body {
+  display: flex;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #0369a1;
+  width: 20%;
+  height: 100%;
+  padding: 2% 1% 1% 2%;
+  color: #f0f9ff;
+}
+.logo {
+  display: flex;
+  margin-bottom: 50px;
+}
+.dashboard-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.dashboard {
+  align-self: center;
+  padding-left: 5px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.sidebarOptions {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.option {
+  padding-left: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.sidebarLogos {
+  width: 25px;
+  height: 25px;
+}
+
+li {
+  display: flex;
+  padding-top: 15px;
+}
+
+.sidebarSettings {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.setting {
+  padding-left: 10px;
+  font-weight: bold;
+}
+.mainwindow {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  background-color: #a6c3d667;
+}
+header {
+  background-color: #f0f9ff;
+  width: 100%;
+  height: 20%;
+  padding: 2% 3% 2% 3%;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(8, 1fr);
+}
+
+@media screen and (min-height: 850px) {
+  header {
+    height: 15%;
+  }
+}
+
+.grid-header {
+}
+#search-bar {
+  grid-column: 1 / span 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar {
+  all: unset;
+  background-color: #a6c3d667;
+  border-radius: 1rem;
+  width: 80%;
+  height: 10%;
+  padding: 10px;
+}
+.searchicon {
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+}
+#notification {
+  place-self: center end;
+}
+.bell {
+  width: 25px;
+  height: 25px;
+}
+#user-login {
+  display: flex;
+  grid-column: 7 / span 8;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.userAvatar {
+  border-radius: 50%;
+  background-color: rgb(255, 204, 0);
+  width: 3.2em;
+  height: 3em;
+}
+
+#user-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.big {
+  width: 4.5em;
+  height: 4.5em;
+}
+.bigUserName {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.hi {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#user-name {
+  grid-column: 2 / span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#new {
+  grid-column: 6 / 6;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 0.7rem;
+}
+
+button {
+  all: unset;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #0ea5e9;
+  border-radius: 1rem;
+  width: 6.4rem;
+  height: 2.2rem;
+  align-self: end;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 2% 3% 2% 2%;
+  display: flex;
+  overflow: hidden;
+}
+
+.projects {
+  padding-right: 1%;
+  width: 75%;
+}
+
+.projectsGrid {
+  height: 100%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  display: grid;
+  grid-template: repeat(3, min(180px, 25%)) / repeat(2, minmax(200px, 440px));
+  gap: 15px 15px;
+}
+.project {
+  border-radius: 0.5rem;
+  background-color: #f0f9ff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-left: 6px solid rgb(232, 188, 14);
+}
+
+.misc {
+  width: 25%;
+
+  padding: 0% 0 0 1%;
+}
+.announcements {
+  margin-top: 3%;
+  width: 100%;
+  height: 260px;
+  background-color: #f0f9ff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-height: 900px) {
+  .announcements {
+    height: 230px;
+  }
+}
+
+.trending {
+  width: 100%;
+  height: 260px;
+  background-color: #f0f9ff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.trendingTop {
+  padding-top: 21px;
+}

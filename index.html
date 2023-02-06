@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo">
+        <img
+          class="dashboard-logo"
+          src="assets/view-dashboard.svg"
+          alt="DashboardLogo"
+        />
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <ul class="sidebarOptions">
+        <li id="home">
+          <img class="sidebarLogos" src="assets/home.svg" alt="home" /><span
+            class="option"
+            >Home</span
+          >
+        </li>
+        <li id="profile">
+          <img
+            class="sidebarLogos"
+            src="assets/account.svg"
+            alt="profile"
+          /><span class="option">Profile</span>
+        </li>
+        <li id="messages">
+          <img
+            class="sidebarLogos"
+            src="assets/message.svg"
+            alt="messages"
+          /><span class="option">Messages</span>
+        </li>
+        <li id="history">
+          <img
+            class="sidebarLogos"
+            src="assets/clock-time-four.svg"
+            alt="history"
+          /><span class="option">History</span>
+        </li>
+        <li id="tasks">
+          <img
+            class="sidebarLogos"
+            src="assets/file-document-multiple-outline.svg"
+            alt="tasks"
+          /><span class="option">Tasks</span>
+        </li>
+        <li id="communities">
+          <img
+            class="sidebarLogos"
+            src="assets/account-group.svg"
+            alt="communities"
+          /><span class="option">Communities</span>
+        </li>
+      </ul>
+      <ui class="sidebarSettings">
+        <li id="settings">
+          <img class="sidebarLogos" src="assets/cog.svg" alt="settings" /><span
+            class="setting"
+            >Settings</span
+          >
+        </li>
+        <li id="support">
+          <img class="sidebarLogos" src="assets/help.svg" alt="support" /><span
+            class="setting"
+            >Support</span
+          >
+        </li>
+        <li id="privacy">
+          <img
+            class="sidebarLogos"
+            src="assets/shield-lock-open-outline.svg"
+            alt="privacy"
+          /><span class="setting">Privacy</span>
+        </li>
+      </ui>
+    </div>
+    <div class="mainwindow">
+      <header>
+        <div class="grid-header" id="search-bar">
+          <img src="assets/magnify.svg" alt="search" class="searchicon" /><input
+            class="searchbar"
+            type="text"
+          />
+        </div>
+        <div class="grid-header" id="notification">
+          <img class="bell" src="assets/bell-ring-outline.svg" alt="bell" />
+        </div>
+        <div class="grid-header" id="user-login">
+          <img
+            class="userAvatar"
+            src="assets/imageedit_2_8449417298.png"
+            alt="avatarpic"
+          /><span class="userName">Morgan Oakley</span>
+        </div>
+        <div class="grid-header" id="user-logo">
+          <img
+            class="userAvatar big"
+            src="assets/imageedit_2_8449417298.png"
+            alt="avatarpic"
+          />
+        </div>
+        <div class="grid-header" id="user-name">
+          <span class="hi">Hi there,</span
+          ><span class="bigUserName">Morgan Oakley (@morgan)</span>
+        </div>
+        <div class="button" id="new"><button>New</button></div>
+        <div class="button" id="upload"><button>Upload</button></div>
+        <div class="button" id="share"><button>Share</button></div>
+      </header>
+      <div class="wrapper">
+        <div class="projects">
+          <h3>Your projects</h2>
+          <div class="projectsGrid">
+            <div class="project">1 </div>
+            <div class="project">2</div>
+            <div class="project">3</div>
+            <div class="project">4</div>
+            <div class="project">5</div>
+            <div class="project">5</div>
+          </div>
+        </div>
+        <div class="misc"> 
+            <h3 class="announce">Announcments</h3>
+            <div class="announcements">1</div>
+            <h3 class="trendingTop">Trending</h3>
+            <div class="trending">2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
